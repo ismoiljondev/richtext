@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #e5e6e7;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#editor {
+  min-height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+#editor:focus {
+  outline: none;
+}
+
+#toolbar {
+  background-color: #fafafa;
+  padding: 10px;
+}
+#toolbar button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+}
+
+.active {
+  background-color: #e0e9ff;
+}/*# sourceMappingURL=style.css.map */

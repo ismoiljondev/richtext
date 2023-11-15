@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <div id="toolbar">
+        <button onclick="formatText('bold')">&#x42;</button>
+        <button onclick="formatText('italic')">&#8464;</button>
+        <button onclick="formatText('underline')">Underline</button>
+        <button onclick="formatText('copy')">Copy</button>
+        <button onclick="formatText('cut')">Cut</button>
+      </div>
+      <div id="editor" contenteditable="true">
+        <p>Start typing here...</p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
